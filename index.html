@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anushuiya Foundation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/618484d688.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Owl carousel Css Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Owl Carousel JQuery Link  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="">
+        <header>
+          <div class="container-fluid">
+            <div class="navbar">
+              <div class="logo-contain">
+                <img src="logo.png" alt="logo" />
+              </div>
+              <div class="nav-items">
+                <div><a href="#home" class="color" id="constant">Home</a></div>
+                <div><a href="#about" class="color">About</a></div>
+                <div><a href="#causes" class="color">Causes</a></div>
+                <div><a href="#partners" class="color">Partners</a></div>
+                <div><a href="#contact" class="color">Contact</a></div>
+                <div>
+                  <a href="#registration" class="color"
+                    ><i class="fas fa-sign-in-alt fa-xl" id="reg-icon"></i
+                    >Registration</a
+                  >
+                </div>
+
+                <div class="dropdown">
+                  <button class="btn-decor" style="border: none">
+                    Login <i class="fas fa-angle-down" id=" "></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="https://blog.hubspot.com/">Subscriber Login</a>
+                    <a href="https://academy.hubspot.com/">Employee Login</a>
+                  </div>
+                </div>
+                <select name="lang" id="btn">
+                  <option value="1">En</option>
+                  <option value="2">हि</option>
+                </select>
+              </div>
+              <div class="nav-btns">
+                <div class="hero-section-btn" id="nav-btns-vanished">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger"
+                    id="nav-btns-donate-now"
+                  >
+                    Donate now
+                  </button>
+                </div>
+                <div class="hero-section-btn" id="nav-btns-vanished">
+                  <button type="button" class="btn btn-danger">
+                    Subscribe now
+                  </button>
+                </div>
+
+                <div class="nav-btns-dropdown">
+                  <button
+                    class="btn btn-danger dropdown-toggle hero-section-btn"
+                    class="dropdown-btn"
+                    type="button"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Menu
+                  </button>
+                  <div class="dropdown-menu" style="right: 0">
+                    <a class="dropdown-item" href="#">Home</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">About</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Causes</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">partners</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Contact</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Register</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Login</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+           <!-- hero-section -->
+        <section style="background-color: #eef4f8">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="hero-section-left">
+                  <div class="main-heading">
+                    <h1>
+                      <span class="color-big" id="element-together"
+                        >Together</span
+                      >
+                      <span> we </span>
+                      can make a Difference.
+                    </h1>
+                  </div>
+                  <div class="lower-para">
+                    <p>
+                      Let's secure our daughters future by providing quality
+                      education and health. Let's subscribe with 100 rupees
+                      Donation.
+                    </p>
+                  </div>
+                  <div class="hero-section-btn">
+                    <button class="btn btn-danger" id="special-styled-btn">
+                      Register Now!
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="hero-section-right">
+                  <div class="background-image">
+                    <img src="banner_image.png" alt="background-banner" />
+                  </div>
+                  <div class="animated-elements">
+                    <div class="absolute element1 animate">
+                      <img src="element-1.png" alt="element-1" />
+                    </div>
+                    <div class="absolute element2 animate">
+                      <img src="element-2.png" alt="element-2" />
+                    </div>
+                    <div class="absolute element3 animate">
+                      <img src="element-3.png" alt="element-3" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Donation-Area -->
+        <div class="donation-cards">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-lg-2 col-md-6 col-sm-12 col-12 animate-card">
+                <div class="card " id="card1">
+                  <div class="about-top-boxed-icon">
+                    <div class="logo animate-logo">
+                      <img src="birth1.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="card-body" id="animate-card-body">
+                    <div class="round">
+                      <img src="round (1).png" alt="" />
+                    </div>
+                    <p class="card-subtitle">Donate For</p>
+                    <h3>
+                      New Born <br />
+                      Baby Girls
+                    </h3>
+                    <a href="#" class="card-link">More details...</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6 col-sm-12 col-12 animate-card">
+                <div class="card" id="card2">
+                  <div class="about-top-boxed-icon">
+                    <div class="logo animate-logo">
+                      <img src="book.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="card-body" id="animate-card-body">
+                    <div class="round">
+                      <img src="round (1).png" alt="" />
+                    </div>
+                    <p class="card-subtitle">Donate For</p>
+                    <h3>
+                      Children<br />
+                      Educations
+                    </h3>
+                    <a href="#" class="card-link">More details...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-12 col-12 animate-card">
+                <div class="card " id="card3">
+                  <div class="about-top-boxed-icon">
+                    <div class="logo animate-logo">
+                      <img src="marriage.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="card-body" id="animate-card-body">
+                    <div class="round">
+                      <img src="round (1).png" alt="" />
+                    </div>
+                    <p class="card-subtitle">Donate For</p>
+                    <h3>
+                      Girls<br />
+                      Marriage
+                    </h3>
+                    <a href="#" class="card-link">More details...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-12 col-12 animate-card">
+                <div class="card" id="card4">
+                  <div class="about-top-boxed-icon">
+                    <div class="logo animate-logo">
+                      <img src="delivery.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="card-body" id="animate-card-body">
+                    <div class="round">
+                      <img src="round (1).png" alt="" />
+                    </div>
+                    <p class="card-subtitle">Donate For</p>
+                    <h3>
+                      Healthy &<br />
+                      Dilivery
+                    </h3>
+                    <a href="#" class="card-link">More details...</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-12 col-12 animate-card">
+                <div class="card" id="card5">
+                  <div class="about-top-boxed-icon">
+                    <div class="logo animate-logo">
+                      <img src="death.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="card-body" id="animate-card-body">
+                    <div class="round">
+                      <img src="round (1).png" alt="" />
+                    </div>
+                    <p class="card-subtitle">Donate For</p>
+                    <h3>
+                      Father<br />
+                      Expire
+                    </h3>
+                    <a href="#" class="card-link">More details...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About-Area -->
+        <div class="about-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="crowd-stage-foundation-container about-left">
+                  <div class="about-images">
+                    <div class="about1">
+                      <img src="about (1).png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="about-content">
+                  <div class="about-heading">
+                    <div class="about-head">
+                      <h3>Welcome to Crowd Stage Foundation</h3>
+                    </div>
+                  </div>
+                  <div class="about-sub-heading">
+                    <h2>
+                      A world where
+                      <span id="poverty-highlighted">poverty</span>
+                      will not exists
+                    </h2>
+                  </div>
+                  <div class="sub-heading">
+                    <h3>We are the largest crowdfunding</h3>
+                  </div>
+                  <div class="about-para">
+                    <h5>
+                      A world where girls are educated, safe and healthy We are
+                      one of the largest crowdfunding.
+                    </h5>
+                  </div>
+                  <div class="about-para2">
+                    <p>
+                      Change Learn More to Donate Now button and link it to the
+                      feature of donation.
+                    </p>
+                  </div>
+                  <div class="about-para3">
+                    <p>
+                      Every girl child is special and has potential in her own
+                      way, it is respon.
+                    </p>
+                  </div>
+                </div>
+                <div class="hero-section-btn DonateNowBtn">
+                  <button class="btn btn-danger">Donate now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- trending-causes -->
+        <section class="section_after" style="background-color: #eef4f8">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="heading-decor">
+                  <h3 class="Trending-causes-heading">Trending causes</h3>
+                  <h2>
+                    <img
+                      class="trending-causes-image"
+                      src="https://www.anshuiyafoundation.com/assets/img/icon/heading.png"
+                      alt=""
+                    />
+                    We are always where other people
+                    <span id="need-highlighted">need</span> help
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="card-trends">
+                  <img src="causes-11.png" class="card-img-top" alt="..." />
+                  <span class="causes-badge">New Born Baby</span>
+                  <div class="trending-card-body">
+                    <h4 class="card-title">
+                      Collect fund for new born babies life.
+                    </h4>
+                    <a href="#" class="card-link d-block">
+                      There are many newborn babies, require instant medical aid
+                      and you can just save a life.
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <div class="hero-section-btn donate-trends-btn">
+                      <button class="btn btn-danger">Donate now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="card-trends">
+                  <img src="causes-2.png" class="card-img-top" alt="..." />
+                  <span class="causes-badge yellow-badge">Education</span>
+                  <div class="trending-card-body">
+                    <h4 class="card-title">
+                      Give children a good education & better life
+                    </h4>
+                    <a href="#" class="card-link d-block">
+                      Sponsor a child education and change her life, give them a
+                      perspective of growing society.
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <div class="hero-section-btn donate-trends-btn">
+                      <button class="btn btn-danger">Donate now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="card-trends">
+                  <img src="Bride.jpg" class="card-img-top" alt="..." />
+                  <span class="causes-badge">Marriage</span>
+                  <div class="trending-card-body">
+                    <h4 class="card-title">
+                      Collect fund for marriage & happy life
+                    </h4>
+                    <a href="#" class="card-link d-block"
+                      >You may contribute to a girl marriage, it can help a
+                      family to grow respectfully.</a
+                    >
+                    <div class="dropdown-divider"></div>
+                    <div class="hero-section-btn donate-trends-btn">
+                      <button class="btn btn-danger">Donate now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row mt-3">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="card-trends">
+                  <img src="pregnant.jpg" class="card-img-top" alt="..." />
+                  <span class="causes-badge yellow-badge">Delivery</span>
+                  <div class="trending-card-body">
+                    <h4 class="card-title">
+                      Collect fund for dilivery & health
+                    </h4>
+                    <a href="#" class="card-link d-block">
+                      29 out of 100 children die due to unavailability of proper
+                      medical facilities in India, lets improve this.
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <div class="hero-section-btn donate-trends-btn">
+                      <button class="btn btn-danger">Donate now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="card-trends">
+                  <img src="death.jpg" class="card-img-top" alt="..." />
+                  <span class="causes-badge">Father Death</span>
+                  <div class="trending-card-body">
+                    <h4 class="card-title">Give children better & safe life</h4>
+                    <a href="#" class="card-link d-block">
+                      A child without parents care and love, they are already
+                      seeking for love and support, lets join hands for them.
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <div class="hero-section-btn donate-trends-btn">
+                      <button class="btn btn-danger">Donate now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="card-trends">
+                  <img src="causes-3.png" class="card-img-top" alt="..." />
+                  <span class="causes-badge yellow-badge">Home & Shelter</span>
+                  <div class="trending-card-body">
+                    <h4 class="card-title">
+                      Collect fund for driking water & healthy foor
+                    </h4>
+                    <a href="#" class="card-link d-block">
+                      Healthy food and clean drinking water is everyone's right,
+                      let's make it available to needy children.
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <div class="hero-section-btn donate-trends-btn">
+                      <button class="btn btn-danger">Donate now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- big-heading -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
+              <div class="big-heading">
+                <div class="big-heading-image"></div>
+                <h2>
+                  <img
+                    src="https://www.anshuiyafoundation.com/assets/img/icon/heading.png"
+                    alt=""
+                  />
+                  Anshuiya Foundation Association
+                  <span id="price-highlighted">Price</span> Offering Function
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="appliance-section" style="background-color: #eef4f8">
+          <div class="container appliances-container">
+            <div class="row appliances-container-left">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="case-boxed-wrapper card-trends A-card">
+                  <div class="case-boxed-img">
+                    <img src="car.png" class="card-img-top" alt="..." />
+                    <div class="appliances-badge-container">
+                      <span class="appliances-badges">
+                        <i class="fa fa-light fa-award text-warning"></i> Prize
+                        1</span
+                      >
+                    </div>
+                  </div>
+                  <div class="Appliance-container-card-body">
+                    <h3>
+                      <a class="card-link A-link">Grandi10</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="case-boxed-wrapper card-trends A-card">
+                  <div class="case-boxed-img">
+                    <img src="Enfield.png" class="card-img-top" alt="..." />
+                    <div class="appliances-badge-container">
+                      <span class="appliances-badges" id="yellow-prize">
+                        <i
+                          class="fa fa-light fa-award text-warning"
+                          id="red-icon"
+                        ></i>
+                        Prize 2</span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="Appliance-container-card-body">
+                    <h3>
+                      <a class="card-link A-link">Royal Enfield</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="case-boxed-wrapper card-trends A-card">
+                  <div class="case-boxed-img">
+                    <img src="hfdeluxe.png" class="card-img-top" alt="..." />
+
+                    <div class="appliances-badge-container">
+                      <span class="appliances-badges">
+                        <i class="fa fa-light fa-award text-warning"></i> Prize
+                        3</span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="Appliance-container-card-body">
+                    <h3>
+                      <a class="card-link A-link">HF Delux</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-3 appliances-container-right">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="case-boxed-wrapper card-trends A-card">
+                  <div class="case-boxed-img">
+                    <img
+                      src="refrigerator.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+
+                    <div class="appliances-badge-container">
+                      <span class="appliances-badges" id="yellow-prize">
+                        <i
+                          class="fa fa-light fa-award text-warning"
+                          id="red-icon"
+                        ></i>
+                        Prize 4</span
+                      >
+                    </div>
+                  </div>
+                  <div class="Appliance-container-card-body">
+                    <h3>
+                      <a class="card-link A-link">10 Refrigerater</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="case-boxed-wrapper card-trends A-card">
+                  <div class="case-boxed-img">
+                    <img src="tv.png" class="card-img-top" alt="..." />
+
+                    <div class="appliances-badge-container">
+                      <span class="appliances-badges">
+                        <i class="fa fa-light fa-award text-warning"></i> Prize
+                        5</span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="Appliance-container-card-body">
+                    <h3>
+                      <a class="card-link A-link">05 TVs</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="case-boxed-wrapper card-trends A-card">
+                  <div class="case-boxed-img">
+                    <img
+                      src="pressure_cooker.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+
+                    <div class="appliances-badge-container">
+                      <span class="appliances-badges" id="yellow-prize">
+                        <i
+                          class="fa fa-light fa-award text-warning"
+                          id="red-icon"
+                        ></i>
+                        Prize 6</span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="Appliance-container-card-body">
+                    <h3>
+                      <a class="card-link A-link cooker">21 Pressure Cookers</a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="container-fluid">
+          <div class="hero-section-btn" id="btn-big">
+            <button class="btn btn-danger mb-5" id="btn-bg-subscribe">
+              Subscribe Now!
+            </button>
+          </div>
+        </div>
+
+        <div class="fundraise-poverty-container">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                <div class="donate-area-text">
+                  <h3>We are here to stop poverty</h3>
+                  <h2>
+                    We are fundraising for the
+                    <span id="people-highlighted">people</span> who are fighting
+                    against poverty
+                  </h2>
+                  <div class="hero-section-btn donation-btn">
+                    <button class="btn btn-danger">Donate now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="partner-area">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="logo-1.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-2.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-3.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-4.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-5.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-6.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-7.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-1.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-2.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-3.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-4.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-5.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-6.png" class="img-slider" alt="" />
+                  </div>
+                  <div class="item">
+                    <img src="logo-7.png" class="img-slider" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="counter-area-wrap">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="counter_item">
+                  <img src="camp2.png" alt="icon" />
+                  <h2 class="counter">2348</h2>
+                  <p class="card-text">Total campaign</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="counter_item">
+                  <img src="hand.png" alt="icon" />
+                  <h2 class="counter">2348</h2>
+                  <p class="card-text">Satisfied donors</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="counter_item">
+                  <img src="mone.png" alt="icon" />
+                  <h2 class="counter">2348</h2>
+                  <p class="card-text">Fund raised</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="counter_item">
+                  <img src="camp.png" alt="icon" />
+                  <h2 class="counter">2348</h2>
+                  <p class="card-text">Happy volunteers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="footer-area-left">
+                  <div class="footer-area-about">
+                    <div class="logo-contain">
+                      <img src="logo.png" id="footer-area-logo" alt="logo" />
+                    </div>
+                    <p>
+                      Saving girls is a conscious campaign to save daughters in
+                      India, it is our aim that every daughter of India should
+                      get a good education and financially independent.
+                    </p>
+                    <h6>
+                      <strong>Address:</strong> PLOT NO.03, 190/1 UKHARI ROAD,
+                      UKHARI-4 JABALPUR MP 482001 IN
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-12 col-12">
+                <div class="footer-area-left-middle-about">
+                  <div class="footer-area-left-middle">
+                    <h3>Quick links</h3>
+                    <div><a href="#">About us</a> <br /></div>
+                    <div><a href="#">Services</a> <br /></div>
+                    <div><a href="#">Projects</a> <br /></div>
+                    <div><a href="#">News</a> <br /></div>
+                    <div>
+                      <a href="#">Career</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6 col-sm-12 col-12">
+                <div class="footer-area-right-middle-about">
+                  <div class="footer-area-right-middle">
+                    <h3>Support</h3>
+
+                    <div><a href="#">Help & FAQ</a> <br /></div>
+                    <div><a href="#">Causes</a> <br /></div>
+                    <div><a href="#">Events</a> <br /></div>
+                    <div><a href="#">Contact us</a> <br /></div>
+                    <div><a href="#">Privacy Policy</a> <br /></div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 col-sm-12 col-12 footer-area-right-about-container"
+              >
+                <div class="footer-area-right-about">
+                  <div class="footer-area-right">
+                    <h3>Contact Us</h3>
+                   <div>
+                    <a href="#"> <strong>CIN:</strong> U85300MP2022NPL062567</a>
+                   </div>
+                    <br/>
+                    <div>
+                      <a href="#">
+                        <strong>Email:</strong> info@anshuiyafoundation.com</a>
+                    </div>
+                    <br/>
+                   <div>
+                    <a href="#">
+                      <strong>Terms & Services:</strong> Terms & Condition</a
+                    >
+                   </div>
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer-dimension">
+          <p class="footer-para">
+            Copyright Anshuiya Foundation © 2022 All Rights Reserved
+          </p>
+
+          <div class="footer-icons">
+            <i class="fab fa-facebook footer-icon-color"></i>
+            <i class="fab fa-twitter-square footer-icon-color"></i>
+            <i class="fab fa-instagram footer-icon-color"></i>
+            <i class="fab fa-linkedin footer-icon-color"></i>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Owl Carousel js Link  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        ltr: true,
+        loop: true,
+        margin: 10,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        dots: false,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 6,
+          },
+          1400: {
+            items: 6,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
+
+<!-- <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div> -->
